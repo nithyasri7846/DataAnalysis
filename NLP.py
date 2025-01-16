@@ -1,3 +1,12 @@
+'''Description:
+In this task, we implement a sentiment analysis model using text data. The dataset consists of product reviews that are classified into three sentiment categories: Positive, Negative, and Neutral. We preprocess the text data by cleaning, tokenizing, and removing special characters. Sentiment analysis is performed using the TextBlob library, and the results are visualized using bar charts to show the distribution of sentiments.
+
+Steps Involved:
+Data Collection: Collect a sample dataset of product reviews or text data.
+Preprocessing: Clean the text data by removing URLs, special characters, and converting text to lowercase.
+Sentiment Analysis: Perform sentiment analysis using TextBlob to classify the sentiment into Positive, Negative, or Neutral.
+Data Visualization: Visualize the sentiment distribution using bar charts with Matplotlib and Seaborn. '''
+
 # Import required libraries
 import pandas as pd
 import re

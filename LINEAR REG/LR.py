@@ -1,3 +1,18 @@
+'''
+Description:
+In this task, we implement a simple linear regression model to predict housing prices based on features like area, number of bedrooms, and bathrooms. The dataset is split into training and testing sets, and the model is trained on the training data. We evaluate the model's performance using Mean Squared Error (MSE) and R-squared metrics. Lastly, the actual vs predicted values are visualized to assess the model's accuracy.
+
+Steps Involved:
+Data Loading: Load the housing dataset .
+Feature and Target Columns: Select the appropriate feature columns and the target column .
+Data Splitting: Split the data into training and testing sets using an 80-20 ratio.
+Model Training: Train a Linear Regression model using the training data.
+Model Evaluation: Evaluate the model using MSE and R-squared metrics.
+Visualization: Visualize the comparison of actual vs predicted prices using a scatter plot.
+Metrics:
+Mean Squared Error (MSE): Measures the average of the squares of the errors between actual and predicted values.
+R-squared: Indicates how well the model fits the data, with 1 being perfect accuracy and 0 indicating no relationship between the variables.
+'''
 # Import necessary libraries
 import pandas as pd
 import numpy as np

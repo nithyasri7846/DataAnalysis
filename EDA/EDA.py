@@ -1,3 +1,32 @@
+'''
+Exploratory Data Analysis (EDA)
+This repository contains a Python script for performing Exploratory Data Analysis (EDA) on a given dataset. The script leverages popular libraries such as pandas, numpy, matplotlib, and seaborn to visualize and analyze the data effectively.
+
+Features
+The EDA script provides the following functionalities:
+
+Dataset Loading:
+
+Reads the dataset from a CSV file.
+Displays column names.
+Data Visualization:
+
+Histograms for visualizing data distribution.
+Distribution plots for specific columns.
+Scatter plots for visualizing relationships between two columns.
+Pairplots to explore relationships between numerical columns.
+Correlation Analysis:
+
+Computes the correlation matrix for numerical columns.
+Displays a heatmap of correlations.
+Outlier Detection:
+
+Boxplots for visualizing outliers in specific columns.
+Outlier analysis using the Interquartile Range (IQR) method.
+Data Saving:
+
+Option to save the cleaned dataset as a new CSV file.'''
+
 # Import necessary libraries
 import pandas as pd
 import numpy as np

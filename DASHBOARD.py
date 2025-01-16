@@ -1,3 +1,15 @@
+'''
+Interactive Dashboard for Data Insights
+This project is a Streamlit-based interactive dashboard that allows users to upload datasets, explore their structure, and visualize key insights through various charts and graphs.
+
+Features
+Dataset Overview: Displays the dataset's first few rows, shape, column names, data types, and descriptive statistics.
+Correlation Heatmap: Visualizes the correlation between numeric columns in the dataset.
+Bar Chart: Allows users to create a bar chart by selecting numeric columns for the X and Y axes.
+Line Chart: Enables users to generate a line chart by selecting numeric columns for the X and Y axes.
+Interactive Interface: User-friendly layout with a sidebar for easy navigation and dataset upload.
+'''
+
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
